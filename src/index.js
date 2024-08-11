@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MyHello from './MyHello';
+import EventBasic from './EventBasic';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <MyHello myName="鈴木" />
+  <EventBasic type="time" />
 );
 
 // If you want to start measuring performance in your app, pass a function
