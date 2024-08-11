@@ -1,21 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import MyHello from './MyHello';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const tag = <img src="" />
 root.render(
-  /*
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  */
-  <>
-    <p>こんにちは!</p>
-    <p>こんにちは!</p>
-  </>
+  <MyHello myName="鈴木" />
 );
 
 // If you want to start measuring performance in your app, pass a function
