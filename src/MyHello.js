@@ -1,5 +1,5 @@
-export default function MyHello(props){
+export default function MyHello({myName}){
   return (
-    <div>こんにちは、{props.myName}</div>
+    <p>こんちには、{myName}</p>
   );
 }
