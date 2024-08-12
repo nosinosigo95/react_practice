@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import StateBasic from './StateBasic';
 import reportWebVitals from './reportWebVitals';
+import ForList from './ForList';
+import books from './books';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StateBasic init={0} />
+  <ForList src={books} />
 );
 
 // If you want to start measuring performance in your app, pass a function
