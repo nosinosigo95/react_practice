@@ -2,14 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import StyledPanel from './StyledPanel';
+import StateParent from './StateParent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StyledPanel>
-    <p>メンバー募集中</p>
-    <p>ようこそ</p>
-  </StyledPanel>
+  <StateParent />
 );
 
 // If you want to start measuring performance in your app, pass a function
