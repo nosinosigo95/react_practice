@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import StateParent from './StateParent';
-import StateForm from './StateForm';
+import FormBasic from './FormBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StateForm />
+  <FormBasic />
 );
 
 // If you want to start measuring performance in your app, pass a function
